@@ -1,0 +1,24 @@
+body{
+    background-color: aliceblue;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+
+table thead tr{
+    background-color: rgb(44, 44, 255);
+    color: whitesmoke;
+}
+
+table tbody tr{
+    background-color: white;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}

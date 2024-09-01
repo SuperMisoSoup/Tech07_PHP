@@ -1,0 +1,94 @@
+body {
+  background-color: aliceblue;
+}
+.wrap {
+  text-align: center;
+}
+/* =======スペース========= */
+.br_16px {
+  padding: 8px 0;
+}
+.br_24px {
+  padding: 12px 0;
+}
+.br_30px {
+  padding: 15px 0;
+}
+.br_40px {
+  padding: 20px 0;
+}
+.br_60px {
+  padding: 30px 0;
+}
+.br_80px {
+  padding: 40px 0;
+}
+
+
+/* =======テーブル========= */
+table *, table *:before, table *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+table {
+	width: 90%;
+	border-collapse: collapse;
+	border-right: 1px solid #dddddd;
+  margin: auto;
+}
+table thead th {
+	padding: 10px 15px;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	background: #dddddd;
+}
+table thead th:last-child {
+	border-right: 1px solid #dddddd;
+}
+table tbody th {
+	padding: 10px 15px;
+	border-bottom: 1px solid #ffffff;
+	background: #dddddd;
+	white-space: nowrap;
+}
+table tbody tr:last-child th {
+	border-bottom: 1px solid #dddddd;
+}
+table tbody td {
+	padding: 10px 15px;
+	vertical-align: top;
+	border-bottom: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+	background: #ffffff;
+}
+@media only screen and (max-width:480px) {
+	table thead {
+		display: none;
+	}
+	table tbody th {
+		display: block;
+	}
+	table tbody td {
+		display: block;
+		padding: 10px 5px;
+	}
+	table tbody td::before {
+		font-weight: bold;
+		float: left;/*上のth要素が長い場合こちらを解除すると1段落下り見やすくなります*/
+		padding: 0.5em 0;
+		content: attr(label);
+	}
+	table tbody td p {
+		padding: 0.5em 0 0 1em;
+    margin: 0;
+	}
+}
+
+
+
+.asd {
+	width: 90%;
+	border-collapse: collapse;
+	border-right: 1px solid #dddddd;
+  margin: auto;
+}
